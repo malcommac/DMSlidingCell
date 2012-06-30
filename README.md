@@ -5,6 +5,9 @@ It uses blocks and Core Animation so it requires iOS 4.x or later.
 
 Daniele Margutti, <http://www.danielemargutti.com>
 
+![DMSlidingCell Example Project](http://danielemargutti.com/wp-content/uploads/2012/06/prova.png)
+
+
 ## How to get started
 
 * Just use this cell as base class for your sliding UITableViewCell subclass
