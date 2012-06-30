@@ -49,6 +49,7 @@
         lastSwipeDirectionOccurred = DMSlidingTableViewCellSwipeNone;
         
         UIView *defaultBackgroundView = [[UIView alloc] initWithFrame:self.contentView.frame];
+        defaultBackgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         defaultBackgroundView.backgroundColor = [UIColor darkGrayColor];
         self.backgroundView = defaultBackgroundView;
         
@@ -115,8 +116,7 @@
         [self setBackgroundVisible:NO];
         if (self.swipeDirection == DMSlidingTableViewCellSwipeBoth)
             lastSwipeDirectionOccurred = DMSlidingTableViewCellSwipeNone;
-    } else
-        NSLog(@"  ignore swipe %@",(directionMade == DMSlidingTableViewCellSwipeLeft ? @"LEFT" : (directionMade == DMSlidingTableViewCellSwipeRight ? @"RIGHT":@"LEFT")));
+    }
 }
 
 - (BOOL) toggleCellStatus {
