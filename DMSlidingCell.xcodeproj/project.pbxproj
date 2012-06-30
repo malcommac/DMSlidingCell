@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2191FCDC159E2135007D84F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2191FCDB159E2135007D84F6 /* UIKit.framework */; };
+		2191FCDE159E2135007D84F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2191FCDD159E2135007D84F6 /* Foundation.framework */; };
+		2191FCE0159E2135007D84F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2191FCDF159E2135007D84F6 /* CoreGraphics.framework */; };
+		2191FCE6159E2135007D84F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2191FCE4159E2135007D84F6 /* InfoPlist.strings */; };
+		2191FCE8159E2135007D84F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2191FCE7159E2135007D84F6 /* main.m */; };
+		2191FCEC159E2135007D84F6 /* DMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2191FCEB159E2135007D84F6 /* DMAppDelegate.m */; };
+		2191FCEF159E2135007D84F6 /* DMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2191FCEE159E2135007D84F6 /* DMViewController.m */; };
+		2191FCF2159E2135007D84F6 /* DMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2191FCF0159E2135007D84F6 /* DMViewController.xib */; };
+		2191FCFA159E214A007D84F6 /* DMSlidingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2191FCF9159E214A007D84F6 /* DMSlidingTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2191FCD7159E2135007D84F6 /* DMSlidingCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMSlidingCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2191FCDB159E2135007D84F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2191FCDD159E2135007D84F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2191FCDF159E2135007D84F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2191FCE3159E2135007D84F6 /* DMSlidingCell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DMSlidingCell-Info.plist"; sourceTree = "<group>"; };
+		2191FCE5159E2135007D84F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2191FCE7159E2135007D84F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2191FCE9159E2135007D84F6 /* DMSlidingCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DMSlidingCell-Prefix.pch"; sourceTree = "<group>"; };
+		2191FCEA159E2135007D84F6 /* DMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMAppDelegate.h; sourceTree = "<group>"; };
+		2191FCEB159E2135007D84F6 /* DMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMAppDelegate.m; sourceTree = "<group>"; };
+		2191FCED159E2135007D84F6 /* DMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMViewController.h; sourceTree = "<group>"; };
+		2191FCEE159E2135007D84F6 /* DMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMViewController.m; sourceTree = "<group>"; };
+		2191FCF1159E2135007D84F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DMViewController.xib; sourceTree = "<group>"; };
+		2191FCF8159E214A007D84F6 /* DMSlidingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMSlidingTableViewCell.h; path = Core/DMSlidingTableViewCell.h; sourceTree = "<group>"; };
+		2191FCF9159E214A007D84F6 /* DMSlidingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMSlidingTableViewCell.m; path = Core/DMSlidingTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2191FCD4159E2135007D84F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2191FCDC159E2135007D84F6 /* UIKit.framework in Frameworks */,
+				2191FCDE159E2135007D84F6 /* Foundation.framework in Frameworks */,
+				2191FCE0159E2135007D84F6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2191FCCC159E2135007D84F6 = {
+			isa = PBXGroup;
+			children = (
+				2191FCE1159E2135007D84F6 /* DMSlidingCell */,
+				2191FCDA159E2135007D84F6 /* Frameworks */,
+				2191FCD8159E2135007D84F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2191FCD8159E2135007D84F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2191FCD7159E2135007D84F6 /* DMSlidingCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2191FCDA159E2135007D84F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2191FCDB159E2135007D84F6 /* UIKit.framework */,
+				2191FCDD159E2135007D84F6 /* Foundation.framework */,
+				2191FCDF159E2135007D84F6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2191FCE1159E2135007D84F6 /* DMSlidingCell */ = {
+			isa = PBXGroup;
+			children = (
+				2191FCEA159E2135007D84F6 /* DMAppDelegate.h */,
+				2191FCEB159E2135007D84F6 /* DMAppDelegate.m */,
+				2191FCED159E2135007D84F6 /* DMViewController.h */,
+				2191FCEE159E2135007D84F6 /* DMViewController.m */,
+				2191FCF0159E2135007D84F6 /* DMViewController.xib */,
+				2191FCE2159E2135007D84F6 /* Supporting Files */,
+				2191FCFB159E31A1007D84F6 /* DMSlidingTableViewCell */,
+			);
+			path = DMSlidingCell;
+			sourceTree = "<group>";
+		};
+		2191FCE2159E2135007D84F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2191FCE3159E2135007D84F6 /* DMSlidingCell-Info.plist */,
+				2191FCE4159E2135007D84F6 /* InfoPlist.strings */,
+				2191FCE7159E2135007D84F6 /* main.m */,
+				2191FCE9159E2135007D84F6 /* DMSlidingCell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2191FCFB159E31A1007D84F6 /* DMSlidingTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2191FCF8159E214A007D84F6 /* DMSlidingTableViewCell.h */,
+				2191FCF9159E214A007D84F6 /* DMSlidingTableViewCell.m */,
+			);
+			name = DMSlidingTableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2191FCD6159E2135007D84F6 /* DMSlidingCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2191FCF5159E2135007D84F6 /* Build configuration list for PBXNativeTarget "DMSlidingCell" */;
+			buildPhases = (
+				2191FCD3159E2135007D84F6 /* Sources */,
+				2191FCD4159E2135007D84F6 /* Frameworks */,
+				2191FCD5159E2135007D84F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMSlidingCell;
+			productName = DMSlidingCell;
+			productReference = 2191FCD7159E2135007D84F6 /* DMSlidingCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2191FCCE159E2135007D84F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Daniele Margutti";
+			};
+			buildConfigurationList = 2191FCD1159E2135007D84F6 /* Build configuration list for PBXProject "DMSlidingCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2191FCCC159E2135007D84F6;
+			productRefGroup = 2191FCD8159E2135007D84F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2191FCD6159E2135007D84F6 /* DMSlidingCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2191FCD5159E2135007D84F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2191FCE6159E2135007D84F6 /* InfoPlist.strings in Resources */,
+				2191FCF2159E2135007D84F6 /* DMViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2191FCD3159E2135007D84F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2191FCE8159E2135007D84F6 /* main.m in Sources */,
+				2191FCEC159E2135007D84F6 /* DMAppDelegate.m in Sources */,
+				2191FCEF159E2135007D84F6 /* DMViewController.m in Sources */,
+				2191FCFA159E214A007D84F6 /* DMSlidingTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2191FCE4159E2135007D84F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2191FCE5159E2135007D84F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2191FCF0159E2135007D84F6 /* DMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2191FCF1159E2135007D84F6 /* en */,
+			);
+			name = DMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2191FCF3159E2135007D84F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2191FCF4159E2135007D84F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2191FCF6159E2135007D84F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMSlidingCell/DMSlidingCell-Prefix.pch";
+				INFOPLIST_FILE = "DMSlidingCell/DMSlidingCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2191FCF7159E2135007D84F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMSlidingCell/DMSlidingCell-Prefix.pch";
+				INFOPLIST_FILE = "DMSlidingCell/DMSlidingCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2191FCD1159E2135007D84F6 /* Build configuration list for PBXProject "DMSlidingCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2191FCF3159E2135007D84F6 /* Debug */,
+				2191FCF4159E2135007D84F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2191FCF5159E2135007D84F6 /* Build configuration list for PBXNativeTarget "DMSlidingCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2191FCF6159E2135007D84F6 /* Debug */,
+				2191FCF7159E2135007D84F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2191FCCE159E2135007D84F6 /* Project object */;
+}
