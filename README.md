@@ -1,6 +1,6 @@
 # DMSlidingCell
 
-DMSlidingCell is a simple Slide-To-Reveal implementation of UITableViewCell you can found in Twitter and many other applications.
+DMSlidingCell is a simple Slide-To-Reveal implementation of UITableViewCell found in Twitter and many other applications.
 It uses blocks and Core Animation so it requires iOS 4.x or later.
 
 Daniele Margutti, <http://www.danielemargutti.com>
