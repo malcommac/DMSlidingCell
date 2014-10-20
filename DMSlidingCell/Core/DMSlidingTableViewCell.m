@@ -139,8 +139,9 @@
     CGFloat bounce_distance = kDMSlidingCellBounce;
     CGFloat contentViewWidth = self.contentView.frame.size.width;
 
+    // Swipes left when swipeMade is 0 because swipeMade isn't always initialized.
     UISwipeGestureRecognizerDirection swipeMade = lastSwipeDirectionOccurred;
-    if (swipeMade == UISwipeGestureRecognizerDirectionLeft) {
+    if (swipeMade == UISwipeGestureRecognizerDirectionLeft || swipeMade == 0) {
         offset_x = (revealBackgroundView ? -contentViewWidth : contentViewWidth);
         bounce_distance = (revealBackgroundView ? 0.0f : kDMSlidingCellBounce);
     } else if (swipeMade == UISwipeGestureRecognizerDirectionRight) {
